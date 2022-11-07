@@ -76,7 +76,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.1923;
 letter-spacing: 0.03em;
-color: var(--color-logo-second);
+color: var(--color-logo-second); 
 }
 .header-nav {
     list-style: none;
@@ -104,7 +104,7 @@ color: var(--color-change);
 }
 .header-nav-link {
     list-style: none;
-    display: flex;
+    display: block;
     gap: 32px;
 }
 
@@ -129,11 +129,6 @@ color: var(--color-text);
     align-items: center;
 }
 
-.nav-list {
-    display: flex;
-}
-
-
 .main {
     background-color: var(--color-background-footer);
 }
@@ -150,6 +145,13 @@ clip: rect(0 0 0 0);
 overflow: hidden; 
 }
 
+.main {
+padding-top: 200px;
+padding-right: 452px;
+padding-bottom: 200px;
+padding-left: 452px;
+}
+
 .main-title {
 font-weight: 900;
 font-size: 44px;
@@ -158,6 +160,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--color-white);
+margin-bottom: 30px;
 }
 .main-btn {
 font-family: inherit;
@@ -172,6 +175,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.875;
 display: center;
+position: absolute;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
