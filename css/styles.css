@@ -81,17 +81,17 @@ letter-spacing: 0.03em;
 color: var(--color-logo-second); 
 }
 .header-nav {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    margin-right: 344px;
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+gap: 50px;
+margin-right: 344px;
 }
 .header-contact {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;   
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+gap: 50px;   
 }
 
 .header-nav-link {
@@ -114,7 +114,7 @@ color: var(--color-change);
 .header-nav-link:focus,
 .main-btn,
 .main-btn-portfolio {
-    color: var(--color-change);
+color: var(--color-change);
 }
 
 .header-contact{
@@ -126,13 +126,13 @@ color: var(--color-text);
 }
 .header-contact:hover,
 .header-contact:focus {
-    color: var(--color-change);
+color: var(--color-change);
 }
 
 .page-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .main {
@@ -175,9 +175,8 @@ letter-spacing: 0.06em;
 color: var(--color-white);
 }
 .projects {
-    text-decoration: none;
+text-decoration: none;
 }
-
 .main-second {
 padding-top: 94px;
 padding-bottom: 94px;
@@ -229,11 +228,6 @@ display: flex;
 justify-content: center;
 gap: 30px;  
 }
-
-.main-team-img {
-margin-bottom: 30px;
-}
-
 .main-team-title {
 font-size: 36px;
 line-height: 1.1666;
@@ -259,6 +253,16 @@ letter-spacing: 0.03em;
 color: var(--color-text);
 margin-bottom: 30px;
 }
+.card-wrapper-main {
+padding-top: 20px;
+padding-right: 24px;
+padding-bottom: 20px;
+padding-left: 24px;
+background-color: var(--color-white);
+border: 1px solid;
+border-color: var(--color-border);   
+}
+
 .main-work-tema {
 font-size: 18px;
 line-height: 2;
@@ -297,7 +301,6 @@ align-items: center;
 gap: 8px;
 margin-bottom: 34px;
 }
-
 .main-btn-portfolio {
 cursor: pointer;
 font-family: inherit;
@@ -312,26 +315,31 @@ height: 38px;
 left: 957px;
 border: 1px solid;
 border-color: var(--color-border); 
-
-
 background-color: var(--color-background-team);
 border-radius: 4px;
 }
-
 .main-btn-portfolio:hover,
 .main-btn-portfolio:focus { 
 color: var(--color-white);
 background-color: var(--color-change);
 border-color: var(--color-change);
 }
-.portfolio-img {
-margin-bottom: 20px;
-}
+
 .portfolio-work {
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
 gap: 30px;  
+}
+
+.card-wrapper {
+padding-top: 20px;
+padding-right: 24px;
+padding-bottom: 20px;
+padding-left: 24px;
+background-color: var(--color-white);
+border: 1px solid;
+border-color: var(--color-border);
 }
 
 .footer {
