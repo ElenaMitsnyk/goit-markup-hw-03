@@ -57,9 +57,12 @@ body{
 
 .page-header a {
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .header {
     background-color: var(--color-white);
+    position: absolute;
 }
 .header-logo,
 .footer-logo {
@@ -69,6 +72,7 @@ font-size: 26px;
 line-height: 1.1923;
 letter-spacing: 0.03em;
 color: var(--color-change);
+margin-right: 93px;
 }
 .header-logo-color {
 font-family: 'Raleway', sans-serif;
@@ -80,6 +84,9 @@ color: var(--color-logo-second);
 }
 .header-nav {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 .header-nav-link {
 font-weight: 500;
@@ -94,6 +101,7 @@ font-size: 14px;
 line-height: 1.1428;
 letter-spacing: 0.02em;
 color: var(--color-change);
+
 }
 .header-nav-link:active,
 .header-nav-link:hover,
@@ -101,15 +109,6 @@ color: var(--color-change);
 .main-btn,
 .main-btn-portfolio {
     color: var(--color-change);
-}
-.header-nav-link {
-    list-style: none;
-    display: block;
-    gap: 32px;
-}
-
-.nav {
-    margin-left: auto;
 }
 
 .header-contact{
@@ -127,6 +126,7 @@ color: var(--color-text);
 .page-header .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .main {
@@ -150,6 +150,7 @@ padding-top: 200px;
 padding-right: 452px;
 padding-bottom: 200px;
 padding-left: 452px;
+margin-bottom: 94px;
 }
 
 .main-title {
@@ -221,6 +222,14 @@ color: var(--color-title);
 }
 
 .main-advantage {
+position: absolute;
+width: 1170px;
+height: 98px;
+top: 774px;
+left: 215px;
+margin-bottom: 94px;
+}
+.main-advantage-title {
 font-size: 14px;
 line-height: 1.1428;
 letter-spacing: 0.03em;
