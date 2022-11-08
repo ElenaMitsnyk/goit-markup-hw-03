@@ -137,9 +137,6 @@ color: var(--color-text);
     justify-content: space-between;
 }
 
-.main {
-    background-color: var(--color-background-footer);
-}
 .visually-hidden { 
 position: absolute; 
 width: 1px; 
@@ -154,11 +151,11 @@ overflow: hidden;
 }
 
 .main {
+background-color: var(--color-background-footer);
 padding-top: 200px;
 padding-right: 452px;
 padding-bottom: 200px;
 padding-left: 452px;
-margin-bottom: 94px;
 }
 
 .main-title {
@@ -230,12 +227,11 @@ color: var(--color-title);
 }
 
 .main-advantage {
-position: absolute;
-width: 1170px;
-height: 98px;
-top: 774px;
-left: 215px;
-margin-bottom: 94px;
+padding-top: 94px;
+padding-bottom: 94px;
+display: flex;
+align-items: flex-end;
+gap: 30px;
 }
 .main-advantage-title {
 font-size: 14px;
@@ -243,6 +239,7 @@ line-height: 1.1428;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-title);
+margin-bottom: 10px;
 }
 .main-advantage-text {
 font-size: 14px;
