@@ -226,11 +226,13 @@ color: var(--color-title);
     text-decoration: none;
 }
 
-.main-advantage {
+.main-second {
 padding-top: 94px;
 padding-bottom: 94px;
+}
+.main-advantage {
 display: flex;
-align-items: flex-end;
+justify-content: center;
 gap: 30px;
 }
 .main-advantage-title {
@@ -247,7 +249,30 @@ line-height: 1.7142;
 letter-spacing: 0.03em;
 color: var(--color-text);
 }
-.main-work,
+.main-third {
+padding-top: 0px;
+padding-bottom: 94px;
+}
+.main-img {
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.main-work {
+font-size: 36px;
+line-height: 1.1666;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--color-title);
+margin-bottom: 50px;
+}
+
+.main-fourth {
+    
+}
+
+
+
 .main-team {
 font-size: 36px;
 line-height: 1.1666;
