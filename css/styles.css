@@ -70,7 +70,8 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.1923;
 letter-spacing: 0.03em;
-color: var(--color-logo-second); 
+color: var(--color-logo-second);
+margin-right: 93px; 
 }
 .header-nav {
 list-style: none;
